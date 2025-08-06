@@ -1,0 +1,63 @@
+# Node modules
+node_modules/
+
+# Build outputs
+.next/
+dist/
+out/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Env files
+.env*
+!.env.example
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Vercel
+.vercel/
+
+# Firebase / Supabase
+.firebase/
+.supabase/
+
+# Optional cache directories
+.cache/
+.nyc_output/
+coverage/
+turbo/
+
+# Local tooling
+*.local
+*.log
+*.tgz
+
+# Storybook
+storybook-static/
+
+# Misc
+*.sublime-workspace
+*.sublime-project
+
+# Mac system files
+.AppleDouble
+.LSOverride
+
+# Static exports (optional)
+exported/
+
+# Yarn / pnpm
+.yarn/
+.pnp.*
